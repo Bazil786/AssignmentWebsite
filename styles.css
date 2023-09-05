@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 183, 0);
+}
+
+/* for Large Devices */
+@media (min-width: 1022px) {
+  .containerMobile {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  h4 {
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .container__fluid {
+    position: relative;
+    display: flex;
+    background-color: rgb(255, 183, 0);
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    margin-top: 3%;
+
+    justify-content: space-evenly;
+  }
+  .container1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    height: 88vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    height: 88vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+  }
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    height: 88vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+  }
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+    height: 88vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+  }
+
+  .container__top {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18vw;
+    height: 8vh;
+    margin-top: 5vh;
+    margin-bottom: 30px;
+  }
+  .middle__border {
+    position: absolute;
+    display: flex;
+    width: 18vw;
+    height: 3vh;
+    margin-top: 13vh;
+    background-color: white;
+    border-bottom: 2px solid rgb(238, 231, 231);
+  }
+  .container__middle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(224, 242, 247, 0.812);
+    width: 18vw;
+    height: 16vh;
+    margin-top: 20vh;
+  }
+  .pricing-container {
+    position: relative;
+    height: 4vh;
+    width: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rupee-symbol {
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 3px 0px 1px 0px;
+    padding-right: 2px;
+  }
+  .price {
+    font-weight: bolder;
+  }
+  .container__middle-bottom {
+    position: relative;
+    margin-top: 2vh;
+    font-size: large;
+  }
+  .content {
+    font-weight: 300;
+    line-height: 160%;
+  }
+  .container_bottom {
+    position: absolute;
+    display: flex;
+    width: 18vw;
+    text-align: start;
+    margin-top: 38vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container__footer {
+    margin-top: 85vh;
+  }
+
+  .nav {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 3vh;
+    background-color: rgb(255, 183, 0);
+    transform: rotate(-45deg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 190px 0px 0px;
+    z-index: 30;
+  }
+  .new {
+    position: absolute;
+  }
+}
+/* For Small Devices */
+
+@media (max-width: 1022px) {
+  .containerDesktop {
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    color: blue;
+  }
+  .containerMobile {
+    position: relative;
+    background-color: rgb(255, 183, 9);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    margin: auto;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .container1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 82vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+  }
+  .container2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 82vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+  }
+  .container3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 82vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    align-items: center;
+  }
+  .container4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 82vh;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+  }
+  .container__top {
+    width: 60vw;
+    margin-top: 3vh;
+    border-bottom: 2px solid rgba(248, 244, 244, 0.975);
+  }
+
+  .container__middle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(224, 242, 247, 0.812);
+    width: 60vw;
+    margin-top: 4vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .pricing-container {
+    position: relative;
+    height: 4vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rupee-symbol {
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 3px 0px 1px 0px;
+    padding-right: 2px;
+  }
+  .price {
+    font-weight: bolder;
+  }
+  .container__middle-bottom {
+    margin-top: 20px;
+    font-size: large;
+  }
+  .container_bottom {
+    display: flex;
+    position: absolute;
+    width: 60vw;
+    text-align: start;
+    margin-top: 39vh;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container__footer {
+    display: flex;
+    position: absolute;
+    margin-top: 78vh;
+    font-weight: 600;
+  }
+  .nav {
+    position: absolute;
+    font-weight: 600;
+    display: flex;
+    width: 40vw;
+    height: 3vh;
+    background-color: rgb(255, 183, 9);
+    transform: rotate(-45deg);
+    justify-content: center;
+    align-items: center;
+    margin-right: 56vw;
+    margin-top: 2vh;
+  }
+  .new {
+    display: flex;
+    position: absolute;
+  }
+  .right.carousel-control,
+  .left.carousel-control {
+    display: none;
+  }
+  .carousel-indicators {
+    position: absolute;
+    margin-top: 30vh;
+  }
+  .carousel-indicators li {
+    background-color: rgba(146, 134, 134, 0.477);
+    font-weight: bolder;
+    font-size: larger;
+    border: none;
+    margin-left: 7px;
+    padding: 5px;
+  }
+  .carousel-indicators .active {
+    background-color: rgb(74, 70, 70);
+    margin-left: 7px;
+  }
+}
